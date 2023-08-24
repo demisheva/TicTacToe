@@ -1,0 +1,43 @@
+body {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.load-more {
+  display: block;
+  margin: 1rem auto;
+}
+.hide {
+  display: none;
+}
+
+.search-wrap {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+#characters-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#characters-wrap div {
+  display: flex;
+  flex: 1 0 20%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 1rem 0;
+}
+
+#characters-wrap div p {
+  margin: 0.2rem auto;
+}
+
+#characters-wrap div img {
+  padding-bottom: 1rem;
+}
+
+
